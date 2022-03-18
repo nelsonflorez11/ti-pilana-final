@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav.menu ul {
+  list-style: none;
+  display: flex;
+  font-size: larger;
+  justify-content: space-evenly;
+}
+nav ul a {
+  color: darkcyan;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+}
+
+nav ul a:hover {
+  color: lightslategray;
+  font-weight: bold;
+}
+.boton {
+  border: 1px solid #2e518b;
+  padding: 10px;
+  background-color: #393e41;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Helvetica", sans-serif;
+  border-radius: 50px;
+}
+
+body {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.galeria {
+  height: calc(300px + 3em);
+  width: 260px;
+  margin: 1em auto;
+  border: 1px solid #555;
+  position: relative;
+}
+
+.galeria img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.galeria input[type="radio"] {
+  position: relative;
+  bottom: calc(-300px - 1.5em);
+  left: 0.5em;
+}
+
+.galeria input[type="radio"]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+  opacity: 1;
+}
+.gallery img:hover {
+  opacity: 0.7;
+}
+
+.principal {
+  width: 100%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas:
+    "header header header"
+    "banner banner banner"
+    "contents contents sidebar"
+    "networksLeft networksRight sidebar"
+    "footer footer footer";
+}
+.principal > div,
+.principal .header,
+.principal .contents,
+.principal .sidebar,
+.principal .footer,
+.principal .banner {
+  background: #fff;
+  padding: 20px;
+}
+.principal .header {
+  grid-area: header;
+}
+.principal .banner {
+  padding: 170px;
+  color: cadetblue;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  grid-area: banner;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/2.jpg);
+}
+.principal .contents {
+  padding: 100px;
+  grid-area: contents;
+  font-size: larger;
+  text-align: justify;
+  background: #e7e5df;
+}
+.principal .sidebar {
+  grid-area: sidebar;
+  text-align: center;
+  padding: 100px;
+  background: #e7bb41;
+  font-size: larger;
+}
+.principal .networksLeft,
+.principal .networksRight {
+  padding: 100px;
+  color: black;
+  text-align: center;
+  display: center;
+  font-size: larger;
+  justify-content: center;
+}
+.principal .networksLeft {
+  grid-area: networksLeft;
+  background: #eb4859;
+}
+
+.principal .networksRight {
+  grid-area: networksRight;
+  background: #44bba4;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #393e41;
+  color: darkcyan;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+.footer a:hover {
+  transform: scale(1.2);
+}
+
+.principal .footer {
+  background-color: #393e41;
+  text-align: center;
+  grid-area: footer;
+}
+
+@media screen and (max-width: 600px) {
+  .principal {
+    grid-template-areas:
+      "header header header"
+      "banner banner banner"
+      "contents contents contents"
+      "networksLeft networksRight sidebar"
+      "footer footer footer";
+  }
+}
+@media screen and (min-width: 600px) {
+  .principal {
+    grid-template-areas:
+      "header header header"
+      "banner banner banner"
+      "contents contents sidebar"
+      "networksLeft networksRight sidebar"
+      "footer footer footer";
+  }
+}
+@media screen and (min-width: 992px) {
+  .principal {
+    grid-template-areas:
+      "header header header"
+      "banner banner banner"
+      "contents contents sidebar"
+      "networksLeft networksRight sidebar"
+      "footer footer footer";
+  }
+}
+@media screen and (min-width: 1200px) {
+  .principal {
+    grid-template-areas:
+      "header header header"
+      "banner banner banner"
+      "contents contents sidebar"
+      "networksLeft networksRight sidebar"
+      "footer footer footer";
+  }
+}
+@media screen and (max-width: 340px) {
+  .principal {
+    grid-template-areas:
+      "header header header"
+      "banner banner banner"
+      "contents contents contents"
+      "networksLeft networksRight sidebar"
+      "footer footer footer";
+  }
+}
