@@ -150,6 +150,11 @@ body {
 
 @media screen and (max-width: 600px) {
   .principal {
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
     grid-template-areas:
       "header header header"
       "banner banner banner"
@@ -160,7 +165,12 @@ body {
 }
 @media screen and (min-width: 600px) {
   .principal {
-    grid-template-areas:
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:    
       "header header header"
       "banner banner banner"
       "contents contents sidebar"
@@ -170,6 +180,11 @@ body {
 }
 @media screen and (min-width: 992px) {
   .principal {
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);    
     grid-template-areas:
       "header header header"
       "banner banner banner"
@@ -180,7 +195,12 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .principal {
-    grid-template-areas:
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:    
       "header header header"
       "banner banner banner"
       "contents contents sidebar"
@@ -190,6 +210,11 @@ body {
 }
 @media screen and (max-width: 340px) {
   .principal {
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
     grid-template-areas:
       "header header header"
       "banner banner banner"
