@@ -148,7 +148,7 @@ body {
   grid-area: footer;
 }
 
-@media screen and (min-width: 700px) {
+/* @media screen and (min-width: 700px) {
   .principal {
     width: 100%;
     margin: 20px auto;
@@ -162,7 +162,7 @@ body {
       "networksLeft networksRight sidebar"
       "footer footer footer";
   }
-}
+} */
 @media screen and (max-width: 960px) {
   .principal {
     width: 100%;
@@ -172,9 +172,11 @@ body {
     grid-template-rows: repeat(6, auto);
     grid-template-areas:    
       "header header header"
-      "banner banner banner"
-      "contents contents contents "
-      "networksLeft networksRight sidebar"
+      "banner banner banner"    
+      "contents contents contents"
+      "sidebar sidebar sidebar"
+      "networksLeft networksLeft networksLeft"
+      "networksRight networksRight networksRight"
       "footer footer footer";
   }
 }
