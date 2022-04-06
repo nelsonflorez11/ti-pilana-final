@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nelsonflorez11/ti-pilana-SASS.git"
+    "url": "git+https://github.com/nelsonflorez11/sass.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nelsonflorez11/ti-pilana-SASS/issues"
+    "url": "https://github.com/nelsonflorez11/sass/issues"
   },
-  "homepage": "https://github.com/nelsonflorez11/ti-pilana-SASS#readme",
+  "homepage": "https://github.com/nelsonflorez11/sass#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
