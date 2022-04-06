@@ -49,7 +49,7 @@ body {
     background-position: center center;
     grid-area: banner;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/2.jpg); }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/lanas-banner.jpg); }
   .principal .contents {
     padding: 100px;
     grid-area: contents;
@@ -89,6 +89,9 @@ body {
     text-align: center;
     padding: 20px;
     grid-area: footer; }
+  @media screen and (max-width: 960px) {
+    .principal {
+      grid-template-areas: "header header header" "banner banner banner" "contents contents contents" "sidebar sidebar sidebar"  "networksLeft networksLeft networksLeft" "networksRight networksRight networksRight" "footer footer footer"; } }
 
 .footer a {
   text-decoration: none;
