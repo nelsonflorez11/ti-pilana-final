@@ -1,7 +1,6 @@
 {
-  "name": "ti-pilana-sass",
+  "name": "ti-pilana",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,16 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nelsonflorez11/sass.git"
+    "url": "git+https://github.com/nelsonflorez11/ti-pilana-final.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nelsonflorez11/sass/issues"
+    "url": "https://github.com/nelsonflorez11/ti-pilana-final/issues"
   },
-  "homepage": "https://github.com/nelsonflorez11/sass#readme",
+  "homepage": "https://github.com/nelsonflorez11/ti-pilana-final#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
-  }
+  },
+  "description": ""
 }

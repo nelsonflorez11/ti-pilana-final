@@ -8,16 +8,16 @@ body {
 
 .galeria {
   height: calc(300px + 3em);
-  width: 260px;
+  width: 210px;
   margin: 1em auto;
-  border: 1px solid #555;
   position: relative; }
   .galeria img {
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
-    transition: opacity 3s; }
+    transition: opacity 3s;
+    border-radius: 20px; }
   .galeria input[type="radio"] {
     position: relative;
     bottom: calc(-300px - 1.5em);
@@ -36,13 +36,13 @@ body {
 .principal {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, auto);
   grid-template-areas: "header header header" "banner banner banner" "contents contents sidebar" "networksLeft networksRight sidebar" "footer footer footer"; }
   .principal .header {
     grid-area: header; }
   .principal .banner {
-    padding: 170px;
+    padding: 130px;
     color: cadetblue;
     background-size: cover;
     background-repeat: no-repeat;
