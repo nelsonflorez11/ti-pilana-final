@@ -53,7 +53,7 @@ body {
   }
   .sidebar {    
     grid-area: sidebar;
-    text-align: center;
+    text-align: justify;
     @include padding($paddingGe);
     background: #e7bb41;
     font-size: larger;     

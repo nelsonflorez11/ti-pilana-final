@@ -31,7 +31,7 @@ body {
     background: #e7e5df; }
   .principal .sidebar {
     grid-area: sidebar;
-    text-align: center;
+    text-align: justify;
     padding: 100px;
     background: #e7bb41;
     font-size: larger; }
