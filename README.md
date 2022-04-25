@@ -1,6 +1,6 @@
 # TIPILANA
 
-Proyecto final del curso Desarrollo Web de la carrera Full Stack en Coderhouse.
+Proyecto final del curso Desarrollo Web de la carrera Desarollo Full Stack en Coderhouse.
 
 La temática del sitio Web es sobre prendas tejidas en lana virgen de ovejas
 
