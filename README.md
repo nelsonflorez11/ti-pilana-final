@@ -7,6 +7,5 @@ HTML
 CSS
 
 A continuacion los temas vistos en el programa
-![alt text](https://github.com/nelsonflorez11/ti-pilana-final/master/temas.png?raw=true)
-
+![Screenshot](./images/temas.png)
 
