@@ -10,7 +10,7 @@ $colors-between: (
   networksLeft: #44bba4,
   networksRight: #eb4859,
 );
-$paddingGe:100px;
+$paddingGe:30px;
 @mixin padding($padding) {
   padding: $padding;  
 }
@@ -34,7 +34,7 @@ body {
     grid-area: header;
   }
   .banner {
-    padding: 120px; 
+    padding: 50px; 
     color: cadetblue;
     background-size: cover;
     background-repeat: no-repeat;

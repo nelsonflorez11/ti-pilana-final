@@ -15,7 +15,7 @@ body {
   .principal .header {
     grid-area: header; }
   .principal .banner {
-    padding: 120px;
+    padding: 50px;
     color: cadetblue;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body {
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/lanas-banner.jpg); }
   .principal .contents {
-    padding: 100px;
+    padding: 30px;
     grid-area: contents;
     font-size: larger;
     text-align: justify;
@@ -32,12 +32,12 @@ body {
   .principal .sidebar {
     grid-area: sidebar;
     text-align: justify;
-    padding: 100px;
+    padding: 30px;
     background: #e7bb41;
     font-size: larger; }
   .principal .networksLeft,
   .principal .networksRight {
-    padding: 100px;
+    padding: 30px;
     color: black;
     text-align: center;
     display: center;
