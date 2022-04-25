@@ -50,7 +50,10 @@ body {
     font-size: larger;
     text-align: justify;
     background: #e7e5df;
-  }
+    img {
+        width: 30%;       
+    }
+    }
   .sidebar {    
     grid-area: sidebar;
     text-align: justify;

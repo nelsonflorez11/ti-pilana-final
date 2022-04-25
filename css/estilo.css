@@ -29,6 +29,8 @@ body {
     font-size: larger;
     text-align: justify;
     background: #e7e5df; }
+    .principal .contents img {
+      width: 30%; }
   .principal .sidebar {
     grid-area: sidebar;
     text-align: justify;
